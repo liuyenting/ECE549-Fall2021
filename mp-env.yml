@@ -1,0 +1,15 @@
+name: ece549-mp
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - numpy
+  - opencv
+  - pip
+  - python=3
+  - scipy
+  - pip:
+    - matplotlib
+    - scikit-image
