@@ -1,0 +1,61 @@
+\documentclass[12pt]{article}
+
+%%
+%% packages
+%%
+% layout
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+	\pagestyle{fancy}
+	\lhead{MP0}
+	\chead{ECE549}
+	\rhead{Yen-Ting Liu}
+
+% typeset
+\usepackage{enumitem}
+	\setlist[enumerate]{align=left}
+
+% symbols
+\usepackage[fleqn]{amsmath}
+\usepackage{mathtools} % provide dcases, will also load amsmath
+\usepackage{amssymb}
+\usepackage{esint}
+	% make eqref compatible with hyperref
+	\makeatletter
+	\renewcommand*{\eqref}[1]{%
+		\hyperref[{#1}]{\textup{\tagform@{\ref*{#1}}}}%
+	}
+	\makeatother
+\usepackage{ulem}
+
+% reference
+\usepackage{hyperref}
+\usepackage{cleveref}
+
+% equations
+\usepackage{nicefrac}
+\usepackage{cases}
+\usepackage[makeroom]{cancel} % crossed-out
+
+% images
+\usepackage{tikz}
+	\usetikzlibrary{arrows, automata, positioning}
+\usepackage{adjustbox}
+\usepackage{graphicx}
+
+%%
+%% main text
+%%
+\begin{document}
+\begin{enumerate}[label=\textbf{Part \arabic*}]
+%1
+\item
+
+%2
+\item
+
+%3
+\item
+\end{enumerate}
+
+\end{document}
