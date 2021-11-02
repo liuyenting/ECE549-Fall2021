@@ -5,15 +5,16 @@ channels:
   - conda-forge
 
 dependencies:
-  - python=3
+  - python=3.8
+  - pip
   - ipykernel
 
   - numpy
   - scipy
 
-  - opencv
+  - matplotlib
 
-  - pip
+  - scikit-image
+
   - pip:
-    - matplotlib
-    - scikit-image
+    - opencv-contrib-python-headless
